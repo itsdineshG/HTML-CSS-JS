@@ -1,0 +1,53 @@
+@font-face{
+ font-family:digital-clock-font;
+ src: url(put_the_location_to_your_font.ttf or .otf);
+}
+body{
+background-color: lightgreen;
+} 
+h3{
+color: Green;
+font-size: 35px;
+text-align: center;
+font-family: Orbitron; 
+padding: 10px;
+border-bottom: 1px solid black; 
+border-radius: 10px;
+box-shadow: 6px 8px;
+}
+#calc{
+font-family: Orbitron;
+}
+.container{ 
+width: 500px;
+height: 100%;
+
+}
+div{
+margin:auto;
+}
+form{
+margin: auto;
+padding: 10px;
+}
+input{
+padding: 20px;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 5px;
+}
+.btn>input{
+padding: 25px 45px 25px 45px ;
+font-size: 30px;
+}
+form>input:nth-child(2)
+{
+margin-left: 10px;
+}
+input:nth-child(7),
+input:nth-child(8),
+input:nth-child(9),
+input:nth-child(10){
+color: red;
+}
+

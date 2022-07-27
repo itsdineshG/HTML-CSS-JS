@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CALCULATOR</title>
+<link href=https://fonts.googleapis.com/css?family=Orbitron rel=stylesheet type=text/css>
+<link rel="stylesheet" href="calc.css">
+<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+	<div class="container">
+	<h3> Calculator Using - DOM </h3>
+		<form name="form">
+		<input type="text" name="results" id="calc"/>
+		<input type="button" value="C" onclick="clr()">
+		<br>
+		<br>
+		<div class="btn">
+		<input type="button" value="7" onclick="dis('7')">
+		<input type="button" value="8" onclick="dis('8')">
+		<input type="button" value="9" onclick="dis('9')">
+		<input type="button" value="+" onclick="dis('+')">
+		
+		<br>
+		<br>
+		<input type="button" value="4" onclick="dis('4')">
+		<input type="button" value="5" onclick="dis('5')">
+		<input type="button" value="6" onclick="dis('6')">
+		<input type="button" value="-" onclick="dis('-')">
+		<br>
+		<br>
+		<input type="button" value="1" onclick="dis('1')">
+		<input type="button" value="2" onclick="dis('2')">
+		<input type="button" value="3" onclick="dis('3')">
+		<input type="button" value="*" onclick="dis('*')">
+		<br>
+		<br>
+		<input type="button" value="0" onclick="dis('0')">
+		<input type="button" value="." onclick="dis('.')">
+		<input type="button" value="/" onclick="dis('/')">
+		<input type="button" value="=" onclick="ans()">
+	</div>
+	</div>
+</body>
+</html>
