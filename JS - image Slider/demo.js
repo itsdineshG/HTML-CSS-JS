@@ -2,4 +2,5 @@ var x = 1;
 setInterval(function (){
 	document.getElementById('radio' + x).checked = true;
 	x = x + 1;
-},2000);
+},1500);
+

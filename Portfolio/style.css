@@ -1,0 +1,319 @@
+*{
+padding:0;
+margin:0;
+
+}
+html{
+background-color: yellow;
+}
+body{
+width: 1200px;
+height: 100%;
+margin: 0 auto;
+background-color: #c62bcd;
+border: 2px solid white;
+}
+/*Start of home section*/
+.home{
+width: 1200px;
+height: 100%;
+border: 2px solid white;
+}
+.navbar{
+position:fixed;
+padding-top: 30px;
+width: 700px;
+height: 50px;
+margin: 0 30px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 50px;
+}
+.home a{
+text-align: center;
+font-size: 18px;
+text-decoration: none;
+color: Purple;
+padding: 20px;
+margin: 0 10px 0;
+}
+h2{
+margin-top: 10px;
+padding: 20px 30px;
+font-size: 30px;
+float: right;
+width: 300px;
+color: rgba(255, 255, 255, 0.8);
+transition: transform 0.5s;
+
+}
+h2:hover{
+color: white;
+cursor: pointer;
+text-decoration: 5px solid underline;
+transform: scale(1.3);
+}
+.title{
+width: 530px;
+height: 300px;
+text-align: left;
+
+margin: 60px 0 0 400px;
+}
+.title h3{
+font-size: 40px;
+padding: 10px 0 10px 10px;
+color: yellow;
+letter-spacing: 5.5px;
+text-shadow: 5px 5px 1px black;
+}
+.title h1{
+font-size: 40px;
+text-align: justify;
+letter-spacing: 1.5px;
+padding: 0 0 15px 15px;
+color: rgba(244, 250, 43);
+text-shadow: 4px 4px 1px black;
+}
+.title h5{
+font-size: 25px;
+text-align:center;
+padding: 10px 0 10px 10px;
+color: white;
+letter-spacing: 2.8px;
+line-height: 40px;
+text-shadow: 3px 3px 1px black;
+}
+
+.image{
+width: 360px;
+height: 420px;
+margin: 150px 0 0 150px;
+}
+.circle1{
+padding: 50px;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+margin: -180px 0 0 -90px;
+background-color: rgba(255,255,255,0.09);
+}
+.circle2{
+padding: 50px;
+width: 320px;
+height: 320px;
+margin: -470px 0 0 355px;
+border-radius: 50%;
+background-color: rgba(255,255,255,.09);
+}
+/*End of home section*/
+
+/*Start of Skill*/
+.skill{
+width: 1200px;
+height: 100vh;
+border: 1px solid white;
+background-color: #c62bcd;
+padding-top: 60px;
+}
+.skillhead h2{
+margin-top: -40px;
+margin-right: -20px;
+}
+.skill img{
+margin-top: 20px;
+margin-left: 150px;
+padding: 25px;
+width: 50px;
+height: 50px;
+cursor: pointer;
+}
+h4{
+color: rgba(255,255,255,.8);
+margin-top: -550px;
+margin-right: -700px;
+padding: 100px;
+text-align: center;
+font-size: 30px;
+letter-spacing: 3.5px;
+line-height: 60px;
+}
+
+.container {
+  position: relative;
+  width: 20px;
+  margin-left: 50px;
+ 
+}
+.image1:hover{
+background-color: black;
+border-radius: 35px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0%;
+  left: 250px;
+  right: 0;
+  background-color: yellow;
+  overflow: hidden;
+  width: 500px;
+  height: 0;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  bottom: 10;
+  width: 500px;
+  height: 60px;
+  border-radius: 0 50px 0 50px;
+  border: 3px dashed black;
+}
+
+.text {
+  color: black;
+  letter-spacing: 3.5px;
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.skill .circle2{
+width: 350px;
+height: 350px;
+margin: -500px 0 0 720px;
+}
+
+/*End of skill*/
+
+/*Start of project*/
+.project{
+width: 1200px;
+height: 100vh;
+border: 1px solid black;
+background-color: rgb(223, 47, 223);
+}
+.project .circle2{
+  width: 250px;
+  height: 250px;
+  margin: -500px 0 0 50px;
+}
+.project h4{
+color: rgba(255,255,255,.8);
+margin-top: 100px;
+margin-left: 20px;
+float: left;
+padding: 100px;
+text-align: center;
+font-size: 30px;
+letter-spacing: 3.5px;
+line-height: 70px;
+}
+.project a{
+  margin: 30px 20px;
+  float: right;
+}
+.project>.button{
+  width: 1200px;
+  height: 100vh;
+}
+.project button{
+  font-size: 20px;
+  padding: 20px;
+  float: right;
+  background-color: #e862ed;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+.project button:hover{
+  transform: scale(1.5);
+}
+.button div{
+  width: 1200px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/*End of project*/
+
+/*Start of aboutme*/
+.aboutme{
+width: 1200px;
+height: 100vh;
+border: 1px solid black;
+background-color: rgb(223, 47, 223);
+}
+.aboutme h3{
+  padding: 20px;
+  letter-spacing: 10px;
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+.aboutme p{
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(66, 62, 63);
+  margin-left: 600px;
+  margin-top: -50px;
+  line-height: 35px;
+}
+.aboutme .circle2{
+  width: 400px;
+  height: 400px;
+  margin-left: 650px;
+  margin-top: -520px;
+}
+.hire h3{
+  letter-spacing: 6px;
+  text-align: justify;
+  font-size: 20px;
+  margin-top: -70px;
+}
+.hire a{
+  margin-left: 60px;
+  text-decoration: none;
+  color: #d516dfe9;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.632);
+  padding: 15px;
+  border-radius: 30px;
+    
+}
+.hire a:hover{
+  background-color: rgb(255, 255, 0);
+  color: #c62bcd; 
+}
+
+.hire img{
+  width: 25px;
+  height: 18px;
+}
+/*End of aboutme*/
+
+/*Start of Contactme*/
+.contactme{
+width: 1200px;
+height: 100vh;
+border: 1px solid black;
+background-color: rgb(233, 95, 201);
+}
+.contactform{
+  width: 900px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+/*End of Contactme*/
